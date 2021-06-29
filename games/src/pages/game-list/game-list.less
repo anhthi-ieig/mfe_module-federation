@@ -1,0 +1,29 @@
+.game-list {
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 60px auto 0;
+
+    .check-vocabulary,
+    .complete-sentence {
+        width: 170px;
+        height: 148px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+        color: #fff;
+        margin: 0 12px;
+        padding-bottom: 3px;
+        cursor: pointer;
+    }
+
+    .check-vocabulary {
+        background-color: #c91f37;
+    }
+
+    .complete-sentence {
+        background-color: #1f77c9;
+    }
+}
